@@ -159,22 +159,7 @@
     to {
         right: 100%;
     }
-}
 
-40% {
-    bottom: 3em;
-}
-
-50% {
-    bottom: 3em;
-}
-
-60% {
-    bottom: 3em;
-}
-
-
-}
 @keyframes pipe-animation {
     from {
         right: -1.8em;
