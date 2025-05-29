@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <title>Naruto Jumper</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="back">
+        <div class="game-board">
+
+            <div id="game-over" class="game-over">
+                <div class="game-over-content">
+                    <h1>Game Over!</h1>
+                    <p id="final-score">Final Time: 0s</p>
+                    <button class="botao" onclick="reset()">Reiniciar</button>
+                </div>
+            </div>
+            <div id="score" class="score">Timer: 0s</div>
+            <img src="img/stopednaruto.png" class="mario">
+            <img src="img/tronco-removebg-preview.png" class="pipe">
+        </div>
+        <div class="buttons">
+            <button type="button" onclick="startGame()" class="botao"><h2 class="h2">Start</h2></button>
+        </div>
+    </div>
+</body>
+
+</html>
