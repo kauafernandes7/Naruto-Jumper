@@ -37,7 +37,7 @@ function startGame() {
 
     timer = setInterval(() => {
         time++;
-        scoreDisplay.textContent = `Time: ${time}s`;
+        scoreDisplay.textContent = `Tempo: ${time}s`;
     }, 1000);
 
 
@@ -135,7 +135,7 @@ function spawnPipe() {
 function showGameOver() {
     const gameOverScreen = document.getElementById('game-over');
     const finalScore = document.getElementById('final-score');
-    finalScore.textContent = `Final Time: ${time}s`;
+    finalScore.textContent = `Tempo total: ${time}s`;
     gameOverScreen.style.display = 'flex';
 }
 
