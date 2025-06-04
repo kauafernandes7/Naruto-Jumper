@@ -20,8 +20,6 @@ let hasStartedOnce = false;
 let pipeDelayMin = 2000;
 let pipeDelayMax = 3000;
 
-
-
 function startGame() {
     if (hasStartedOnce) return;
     hasStartedOnce = true;
@@ -34,7 +32,6 @@ function startGame() {
 
     pipe.style.animation = `pipe-animation ${speed}s infinite linear`;
 
-
     timer = setInterval(() => {
         time++;
         scoreDisplay.textContent = `Tempo: ${time}s`;
@@ -44,8 +41,6 @@ function startGame() {
     loop = setInterval(checkColision, 10);
 
     spawnPipe();
-
-    
 
     setInterval(() => {
         if (!gameStarted) return;
