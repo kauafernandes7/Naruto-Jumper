@@ -45,13 +45,7 @@ function startGame() {
 
     spawnPipe();
 
-    setInterval(() => {
-        if (!gameStarted) return;
-
-        speed = speed - 0.25;
-        pipe.style.animation = `pipe-animation ${speed}s infinite linear`;
-
-    }, 10000);
+    
 
     setInterval(() => {
         if (!gameStarted) return;
